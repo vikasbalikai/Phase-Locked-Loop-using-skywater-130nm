@@ -1131,7 +1131,7 @@ v1 VDD GND 1.8
       
 <h1> Combining the Layouts </h1>
       
-      
+      <h4>
       1. Use the command magic -T sky130A.tech in the terminal to open magic.
       
       2. Go to cells choose place instance. This option allows us to place more than one pre-created circuits in the magic window.
@@ -1154,8 +1154,11 @@ v1 VDD GND 1.8
       
       10. This gives us our final IC design in ".gds" format.
 
-      Below is our final PLL layout
+      </h4>
       
+ 
+      <h2> Below is our final PLL layout </h2>
+     
 ![final PLL](https://user-images.githubusercontent.com/91013053/134066869-ae3f2cda-bc6e-4863-8456-48d9fa018a77.jpg)
 
 
