@@ -200,7 +200,24 @@ sudo apt-get install ngspice
     - This phase is all about development and the transistor level simulation of the circuits.
     - In this phase all the circuits are developed in such a way that most of the disadvantages are already overcome.            
               
-              
+    
+                      
+ <h2> Steps to install MAGIC </h2>
+
+   <h4>
+- go to http://opencircuitdesign.com/
+
+- on left panel, you wll see a tab called Magic, click on that, in that click on Donwload
+
+- In that use the git link mentioned under the title "Source Distribution Git Repository"
+
+- copy the link "git clone git://opencircuitdesign.com/magic" in the terminal.
+
+- Now we need to install the dependencies, for that you will find the commands to install the depencies in the install page of magic website.
+
+- go to https://github.com/RTimothyEdwards/open_pdks on browser                     
+   </h4>                     
+                      
  <h1> Tapeout </h1>
 <h4 align="justify">
    
