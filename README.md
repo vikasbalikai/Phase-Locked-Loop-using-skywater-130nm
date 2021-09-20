@@ -30,8 +30,9 @@ ideal synthesizer architecture? Although all synthesizers show critical contrast
 power consumption, wide frequency range, good switching speed. Of all the concerns, the major worry is the power consumption and spectral purity of the signal. One of the prime factors of the synthesizer that influence by and large system‟s performance is the frequency switching speed. The frequency switching speed and time of the synthesizers have become very vital in the present scenario, as this time cannot be utilized for processing the data. As a result, because of the ongoing rise in the data rates of RF systems, many modern synthesizers are coming up which have good switching speed. Another major criterion with the frequency synthesizers is its cost, as it limits the designer‟s choice in selecting appropriate designs that can be used. The frequency synthesizer‟s characteristics depend a lot on a particular architecture. 
   Frequency synthesis majorly has three conventional techniques, 
   
-      First one neing the phaselocked loop synthesis, or indirect synthesis, which is found in almost all sophisticated systems. This is a feedback system.  
+      First one being the phaselocked loop synthesis, or indirect synthesis, which is found in almost all sophisticated systems. This is a feedback system.  
       The second kind of technique is called as direct analog (DA) frequency synthesis. This technique does not involve feedback and has the best spectral purity almost close to the carrier. The DA procedure is substantially more complex than PLL to execute and is along these lines more costly. 
       The third one is direct digital synthesis (DDS) or Numerically Controlled Oscillator was invented almost 35 years ago but due to advancements in digital technology, it has become popular in the last decade or so.  
   
   To give better insight, the synthesizers can be classified as direct and indirect architectures. Figure below gives a broader classification </h4>
+  ![Alt text here](I:\PLL workshop\Freq Syn classification.png)
