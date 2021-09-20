@@ -1122,10 +1122,13 @@ v1 VDD GND 1.8
    ![post layout](https://user-images.githubusercontent.com/91013053/134064810-a1b08803-bfeb-4bb4-8051-ceacfa41e990.jpg)
 
    
-<h1> Tapeout theory </h1> 
 
-      <h4>
-      Tapeout means to send our final design to the Fab, after preparing it.
+
+      
+   <h1> Tapeout </h1>
+<h4 align="justify">
+   
+   Tapeout means to send our final design to the Fab, after preparing it.
 
       Preparing the requires adding the following to the chip:
 
@@ -1140,13 +1143,6 @@ v1 VDD GND 1.8
       Others
 
       Caravel: The input-output pads, processor, memory, peripherals and the other most important things that one wants to support his design with are available on the SoC.
-   </h4>
-      
-      ![e fabless](https://user-images.githubusercontent.com/91013053/134065149-6059b3c2-9982-4b9d-92a3-f6c333011787.png)
-
-      
-   <h1> Tapeout </h1>
-<h4 align="justify">
    
    1. Use the downloaded layout file ine analog user project area.
    
@@ -1179,9 +1175,11 @@ v1 VDD GND 1.8
    13. VCO direct input pin is control voltage pin of analog nature. So, we need to connect it to an analog input-output pin.
 
    14. Considering this scenarion, we place our design at the top-right corner and make the connections to the pins using wire tool and contact layers.
-   </h4>                   
+   </h4>   
+      
+     ![e fabless](https://user-images.githubusercontent.com/91013053/134065149-6059b3c2-9982-4b9d-92a3-f6c333011787.png)                 
                       
-                      
+      
   <h1> References </h1>
 
    1. [https://github.com/lakshmi-sathi/avsdpll_1v8](https://github.com/lakshmi-sathi/avsdpll_1v8)
