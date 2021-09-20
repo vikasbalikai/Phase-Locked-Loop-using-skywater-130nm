@@ -18,7 +18,7 @@
                 
    2. [Phase Frequency Detector](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#phase-frequency-detector)
          
-   3. [Introduction to Charge Pump](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#introduction-to-charge-pump)
+   3. [Brief about Charge Pump](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#brief-about-charge-pump)
          
    4. [Introduction to VCO and Frequency Divider](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#introduction-to-vco-and-frequency-divider)
          
@@ -90,7 +90,12 @@ to see that the smallest of the small phase differences must also be detected an
    2. Linearity range - the designed PFD must maintain the linear relationship, between input and output.
    3. The blind zone arising due to any transitions of the input signals must be taken care </h4>
    
-   Figure below describes a TRI-STATE PFD with linear range of 2π
+   <h4> Figure below describes a TRI-STATE PFD with linear range of 2π <\h4>
    
    ![image](https://user-images.githubusercontent.com/91013053/134044030-84b12b99-51a3-4970-b0ae-b9e17c753584.png)
+
+   #Brief about Charge Pump
+   
+   <h4> Analog PLL is also called as Charge pump PLL. </h4>
+![image](https://user-images.githubusercontent.com/91013053/134044655-9f6cb13d-58de-4437-b270-85da90d16035.png)
 
