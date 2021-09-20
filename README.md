@@ -22,14 +22,15 @@ discrete element implementation and transformed into a partially integrated circ
 then to a fully integrated analog circuit, and finally to an all-digital circuit in recent
 years. Most of the early PLL implementations are analog circuits.
 
-  The early digital form of the PLL often refers to the digital implementation with
+    The early digital form of the PLL often refers to the digital implementation with
 only a few building blocks due to the prohibitively high cost of the digital elements.
 The cost for the integrated circuit has been reduced to the point where the cost for
 the digital circuit is much less than the cost for the analog counterpart of the same
 functionality or the cost for the extra transistors required by the digital circuit can be
 ignored. This makes it possible to convert every single component in the PLL into a
 digital block.
-  In ADPLL each building blocks are implemented digitally and have a
+  
+    In ADPLL each building blocks are implemented digitally and have a
 digital interface between them and have the state of the art mechanism to mitigate all
 the drawbacks of analog PLL. The ADPLL itself is also fully integrated with other
 bigger digital circuits, such as digital signal processing (DSP), on a single die. Most
