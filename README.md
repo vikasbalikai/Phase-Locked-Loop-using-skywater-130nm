@@ -633,14 +633,11 @@ plot v(Up) v(Down)+2 v(Ref_clk)+4 v(clk2)+6
    
 <h3> Similarly we do it for other blocks as well </h2>   
 
-   </h2> The final spice code for the PLL to perform post layout simulation is </h2>
-   
-      ```
-      
+   </h2> The final spice code for the PLL to perform post layout simulation is </h2> 
 
 Post layout code
 
-
+ ```
 *PLL
 .include sky130nm.lib
 .option scale = 0.01u
@@ -1092,7 +1089,7 @@ C42 a_143_127# GND 0.99fF
 *c1 7 0 18f
 v1 VDD GND 1.8
 .ends fd
-      ```
+```
    
    
    
