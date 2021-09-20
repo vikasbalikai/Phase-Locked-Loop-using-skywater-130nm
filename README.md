@@ -17,6 +17,7 @@ the drawbacks of analog PLL. The ADPLL itself is also fully integrated with othe
 
   <h1> PLL Classification </h1>
 <h4 align="justify">  The author Roland Best(https://www.amazon.in/Phase-Locked-Loops-Simulation-Applications/dp/0071493751) Classifies PLL into four major categories
+⋅⋅1. Analog PLL (LPLL)
 1. Analog PLL (LPLL)
 2. Classical Digital PLL (DPLL)
 3. All Digital PLL (ADPLL)
