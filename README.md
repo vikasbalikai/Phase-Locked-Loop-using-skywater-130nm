@@ -179,11 +179,7 @@ to see that the smallest of the small phase differences must also be detected an
 
 - Fosc = Fref then, No need of Divider
 
-              <h1>The Circuits used in this design</h1>      
-    
-          
-      ![all circuits](https://user-images.githubusercontent.com/91013053/134068284-a43b9a25-f7e8-4dd7-8a26-989119335756.png)  
-              
+                            
 <h1> Tool setup and design flow </h1>
   
 Best to build any software tool from its source code, as it will be the latest version.
@@ -242,6 +238,9 @@ sudo apt-get install ngspice
     - This phase is all about development and the transistor level simulation of the circuits.
     - In this phase all the circuits are developed in such a way that most of the disadvantages are already overcome.            
               
+              ![all circuits](https://user-images.githubusercontent.com/91013053/134069282-fe1dabfd-7dc9-491e-918e-36450fa5d664.png)
+        
+                      
 <h1> Circuit Design and Simulation </h1>
  
  <h2> Steps to install MAGIC </h2>
