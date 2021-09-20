@@ -328,6 +328,10 @@ here <h4 align=justyfy>
    
    The control block ends with the .endc and the spice file ends with .end.
    </h4>
+   
+   <h2> Use the command ngspice FD.cir for simulation </h2>
+   
+   
    <h1> Tapeout </h1>
 <h4 align="justify">
    
