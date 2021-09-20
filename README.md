@@ -16,7 +16,7 @@
     
    1. [Introduction to PLL](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#introduction-to-pll)
                 
-   2. [Introduction to Phase Frequency Detector](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#introduction-to-phase-frequency-detector)
+   2. [Phase Frequency Detector](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#phase-frequency-detector)
          
    3. [Introduction to Charge Pump](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#introduction-to-charge-pump)
          
@@ -30,7 +30,7 @@
          
    8. [Layout tool - Magic Setup](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#layout-tool-magic-setup)
 
- <h1> What is Phase Locked Loop </h1>
+ # What is Phase Locked Loop 
 <h4 align="justify">Today‟s era of the Integrated circuit (IC) has really changed the way how we see the outer world. The journey of Integrated Circuit (IC) technology is about to reach its zenith soon. IC technology has become an integrated part of today‟s life. These developments are mainly because of the rapid advancements in digital technology
 which has paved the way for such advancements. Scaling capability, reduced area, and minimum power consumption are the key attributes of Metal oxide semiconductor (MOS) technology, but what does has made the CMOS technology a consistent performer in the technology marathon is its agility to different processes, easy re-design, and effortlessness behavior even in the sub-threshold region. Since many analog blocks are inevitably being used in several mixed-mode IC designs, the performance metrics of such analog blocks favor a thorough re-design and hence will be a crucial step in the entire fabrication process. To overcome this glitch the complete digitization of the entire process has carved the way for many opportunities in the system on chips (SoCs). The main advantage of digital technology is its versatility in adopting any technological scaling as and when the design process changes. Advantages like better reusability with the minimized area, power, and better integration are the results of a digital intensive approach as quoted by Homayoun and Razavi in 2013. (http://www.seas.ucla.edu/brweb/papers/Journals/HRTCASMar13.pdf). One of the foremost blocks that has seen a tremendous rise in its usage in the recent past is a phase-locked loop (PLL) system in communication systems. The most widely used component in almost all communication system blocks for frequency synthesis and data recovery is PLL. Cell phones, Laptops, Televisions, communication devices are a few examples that depend on PLLs to perform properly. </h4> 
   
@@ -66,3 +66,20 @@ power consumption, wide frequency range, good switching speed. Of all the concer
   To give better insight, the synthesizers can be classified as direct and indirect architectures. Figure below gives a broader classification </h4>
  
 ![Freq Syn classification](https://user-images.githubusercontent.com/91013053/133984785-d33042a6-5ebb-40ad-8aca-64104e841d8b.png)
+   
+  Phase Frequency Detector 
+   Issues of PFDs
+Whenever any signal leads or lags the other signal, the difference of lead and lag
+information also known as error signal becomes very important. The very job of
+PFD is to produce this error signal between lead and lag signal.
+The following observations were noted after the literature survey w.r.t PFD,
+Of the entire blocks that are present in ADPLL, the PFD circuit is very important
+as the signals are compared in this block only, and the key feature of any ADPLL is
+to see that the smallest of the small phase differences must also be detected and no
+edges must go undetectable.
+Key issues of concern while designing PFD56
+1) The problem of the dead zone must be addressed while designing any PFD.
+2) Linearity range - the designed PFD must maintain the linear relationship,
+between input and output.
+3) The blind zone arising due to any transitions of the input signals must be
+taken care
