@@ -7,9 +7,7 @@ which has paved the way for such advancements. Scaling capability, reduced area,
 
 # CONTENTS 
     
-    (Brief on Phase-Locked-Loop-workshop-using-skywater-130nm)  
-
-<h1> All About VSD Workshop on PLL </h1>
+    <h1> All About VSD Workshop on PLL </h1>
 
 <h2 align="left"> Day 1 – PLL Theory and Lab setup <h2>
     
