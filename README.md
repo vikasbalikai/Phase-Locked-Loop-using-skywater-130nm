@@ -132,3 +132,35 @@ to see that the smallest of the small phase differences must also be detected an
 
 - Fosc = Fref then, No need of Divider
 
+# Tool setup and design flow
+  
+Best to build any software tool from its source code, as it will be the latest version.
+
+The following tools were used in this program:
+
+Ngspice: For transistor level simulation
+Magic: For layout design and parasitic extraction
+
+Installation Procedure for Ngspice, 
+
+
+Open the terminal and type
+sudo apt-get install ngspice
+
+Installation Procedure fol Magic:
+
+- sudo apt-get update && sudo apt-get upgrade This step is used to update the OS.
+              
+- git clone git://opencircuitdesign.com/magic This step clones the Magic Repository
+              
+- sudo apt-get install csh This step installs the csh shell
+              
+- cd magic This step is to go into the cloned directory
+              
+- ./configure This step runs the configure script
+              
+- make This step runs the make command to compile
+              
+- sudo make install This step installs magic on the device
+              
+              
