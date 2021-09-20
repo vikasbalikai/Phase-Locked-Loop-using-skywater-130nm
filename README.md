@@ -82,7 +82,9 @@ So we need to build a system which can mimic the oscillations of the QUARTZ crys
 
 This can be obtained through what we call as FREQUENCY SYNTHESIS or PHASE LOCKED LOOPS
    
-![image](https://user-images.githubusercontent.com/91013053/134043317-e1ae27b5-1962-4f99-b06d-51c46fd91f6c.png)
+
+![image](https://user-images.githubusercontent.com/91013053/134043621-5add8451-809e-4856-a956-86e46239ecfd.png)
+   
 
    
    # Phase Frequency Detector
