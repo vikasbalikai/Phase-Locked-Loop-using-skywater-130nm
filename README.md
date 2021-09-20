@@ -73,6 +73,7 @@ power consumption, wide frequency range, good switching speed. Of all the concer
 
 ![image](https://user-images.githubusercontent.com/91013053/134043621-5add8451-809e-4856-a956-86e46239ecfd.png)
    
+![image](https://user-images.githubusercontent.com/91013053/134043831-69ff02e6-82c1-4d06-ade0-65e0168918e7.png)
 
    
    # Phase Frequency Detector
