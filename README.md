@@ -26,7 +26,7 @@
          
    6. [PDK, Design specifications and pre-layout Simulation](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#pdk,-design-specifications-and-pre-layout-simulation)
          
-   7. [Tool Set up](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#tool-setup)
+   7. [Circuit Design and Simulation](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#circuit-design-and-simulation)
          
 
   ## *Day 2 – PLL Labs with pre and post-layout simulations*
@@ -200,7 +200,68 @@ sudo apt-get install ngspice
     - This phase is all about development and the transistor level simulation of the circuits.
     - In this phase all the circuits are developed in such a way that most of the disadvantages are already overcome.            
               
-    
+<h1> Circuit Design and Simulation </h1>
+ 
+ <h2> Steps to install MAGIC </h2>
+                      
+<h4>                      
+
+   1. The first step is to install ngspice using ubuntu's package manager
+   
+   2. We have to clone the google skywater pdk.
+
+   3. Go to https://github.com/google/skywater-pdk
+
+   - Click on libraries
+
+   - Click sky130_fd_pr
+
+   - Click latest @ f62031a
+
+
+   4. In the right corner click on code and copy the link and use the command "git clone https://github.com/google/skywater-pdk-libs-sky130_fd_pr.git" in the terminal
+
+   5. Then go to the folder skywater-pdk-libs-sky130_fd_pr manually in your machine
+
+   -  enter the folder "cells" 
+
+   -  In that enter "nfet_01v8" folder
+
+   6. Copy the file "sky130_fd_pr__nfet_01v8__tt.pm3.spice" file.
+
+   -  In the mean time create a new folder called spice_lib folder in the work_dir folder and paste that file in that folder.
+
+   -  enter the folder "cells" 
+   
+   -  In that enter "pfet_01v8" folder
+
+   -  copy the file "sky130_fd_pr__pfet_01v8__tt.pm3.spice" file and paste it in spice Lib folder.
+
+   7. In skywater-pdk-libs-sky130_fd_pr/ folder enter models folder and then in parameters folder
+
+   8. Copy invariant.spice file and lod.spice file and paste it in spice Lib folder.
+
+   <h2> Create our own library by the name sky130.lib.</h2>
+
+   -  Steps:
+   -  Be in the terminal cd spice_lib
+   -  Use the command nano skulib30.lib
+   -  In that include all the 4 files copied in spice_lib folder usig the commands
+
+*comment:skylib.30
+.include invariant.spice 
+.include lod.spice
+.include sky130_fd_pr__nfet_01v8__tt.pm3.spice
+.include sky130_fd_pr__pfet_01v8__tt.pm3.spice
+
+   -  ctrl+s 
+
+   -  you should see a message 5 lines have been written
+
+   - ctrl+x
+
+                      
+                      
                       
  <h2> Steps to install MAGIC </h2>
 
