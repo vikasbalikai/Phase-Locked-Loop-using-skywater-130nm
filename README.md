@@ -1091,9 +1091,36 @@ v1 VDD GND 1.8
 .ends fd
 ```
    
+<h1> Post Layout Simulation Results <h1>
    
+   <h2> Post Layout Simulation for Frequency Divider </h2>   
    
+   ![Post Layout Simulation for Frequency Divider](https://user-images.githubusercontent.com/91013053/134064602-91bdcbe1-689b-4347-98f3-677ad9ccba6f.jpg)
+
+   <h2> Post Layout Simulation for Charge Pump </h2>  
    
+   ![Post Layout Simulation for Charge Pump](https://user-images.githubusercontent.com/91013053/134064321-6404de68-39a8-4697-bba0-f6676843ade6.jpg)
+   
+   <h2> Post Layout Simulation for PFD </h2>
+   
+   ![Post Layout Simulation for PFD](https://user-images.githubusercontent.com/91013053/134064646-94b5902f-16b9-4a0d-be8f-98a6dbb3196f.jpg)
+
+   <h2> Post Layout Simulation for PFD_Detecting the difference as small as 0.25ns</h2>
+   
+   ![Post Layout Simulation for PFD_Detecting the difference as small as 0 25ns](https://user-images.githubusercontent.com/91013053/134064688-fdcb436c-9faa-4abe-b2d0-b4da7e90ee1e.jpg)
+
+   <h2> Post Layout Simulation for PFD_Detecting the difference as small as 1ns</h2>
+   
+   ![Post Layout Simulation for PFD_Detecting the difference as small as 1ns](https://user-images.githubusercontent.com/91013053/134064746-f361395b-5844-4353-8b02-ce4d479387f3.jpg)
+
+   <h2> Post Layout Simulation for VCO <h2> 
+   
+   ![Post Layout Simulation for VCO](https://user-images.githubusercontent.com/91013053/134064789-377676d8-301d-49f1-9184-4bf2d6e736f2.jpg)
+
+   <h2> Post Layout Simulation for entile PLL </h2>
+   
+   ![post layout](https://user-images.githubusercontent.com/91013053/134064810-a1b08803-bfeb-4bb4-8051-ceacfa41e990.jpg)
+
    
    <h1> Tapeout </h1>
 <h4 align="justify">
