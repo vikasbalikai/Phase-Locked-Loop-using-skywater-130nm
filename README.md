@@ -552,13 +552,19 @@ v1 1 0 1.8
 Lets say, we want to know the parasitics of FD(Frequency Divider) block, use the command i to select all the layout in the current window then in the console type 
 *extract all*
 
+   
+   
    *A message Extracting FD into FD.ext* will be displayed
 
+   
    Then use the commands
+   
+   
    
    *ext2spice cthresh 0 rthresh 0*
 
    *ext2spice*
+   
 
 *A message exttospice finished* will be displayed.
 
@@ -566,10 +572,11 @@ Lets say, we want to know the parasitics of FD(Frequency Divider) block, use the
 
    -  In the command "ext2spice cthresh 0 rthresh 0"
 
+      
+   
       cthresh 0 rthresh 0 --> means any amount of resistive and capacitive effect present will be extracted.
 
    -  If we mention as 1fF means extarct the paasitice greater than 1fF.  
-
 
 
     -  If we open up the FD.spice file which is the extracted version, we can see lot of additional capacitances extracted by magic, these are parasitics. Few other parameters in this file are area of drain(ad), perimeter of drain(pd) etc.
