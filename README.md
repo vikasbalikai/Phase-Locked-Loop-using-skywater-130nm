@@ -27,7 +27,11 @@
    6. [PDK, Design specifications and pre-layout Simulation](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#pdk,-design-specifications-and-pre-layout-simulation)
          
    7. [Circuit Design and Simulation](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#circuit-design-and-simulation)
-         
+
+## *Day 2 – PLL Labs with pre and post-layout simulations*         
+   
+   8. [PLL components circuit design](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#pll-components-circuit-design)
+
 
  <h1> What is Phase Locked Loop </h1>
 <h4 align="justify">Today‟s era of the Integrated circuit (IC) has really changed the way how we see the outer world. The journey of Integrated Circuit (IC) technology is about to reach its zenith soon. IC technology has become an integrated part of today‟s life. These developments are mainly because of the rapid advancements in digital technology
@@ -292,7 +296,7 @@ sudo apt-get install ngspice
  
    <h1>PLL components circuit design</h1>
    
-   <h2> Frequesncy Divider Block </h2>
+   <h2> Frequency Divider Block </h2>
    
    A circuit description ngspice for the frequency divider circuit was created.
    A spice file is just a text file with a .spice or .cir extension.
@@ -330,6 +334,14 @@ here <h4 align=justyfy>
    </h4>
    
    <h2> Use the command ngspice FD.cir for simulation </h2>
+   
+   <h3> On similar lines we follow the procedure and simulate all the blocks of PLL viz, PFD, Charge Pump, VCO </h3>
+   
+   
+   
+   
+   
+   
    
    
    <h1> Tapeout </h1>
