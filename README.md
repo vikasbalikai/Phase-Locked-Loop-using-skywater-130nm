@@ -552,38 +552,44 @@ v1 1 0 1.8
 Lets say, we want to know the parasitics of FD(Frequency Divider) block, use the command i to select all the layout in the current window then in the console type 
 *extract all*
 
-*A message Extracting FD into FD.ext* will be displayed
+   *A message Extracting FD into FD.ext* will be displayed
 
-then use the command
-ext2spice cthresh 0 rthresh 0
-ext2spice
+   Then use the commands
+   
+   *ext2spice cthresh 0 rthresh 0*
+
+   *ext2spice*
+
 *A message exttospice finished* will be displayed.
 
-Few points to note:
+   <h3> Few points to note: </h3>
 
-In the command
-"ext2spice cthresh 0 rthresh 0"
+   -  In the command "ext2spice cthresh 0 rthresh 0"
 
-cthresh 0 rthresh 0 --> means any amount of resistive and capacitive effect present will be extracted.
-If we mention as 1fF means extarct the paasitice greater than 1fF.  
+      cthresh 0 rthresh 0 --> means any amount of resistive and capacitive effect present will be extracted.
+
+   -  If we mention as 1fF means extarct the paasitice greater than 1fF.  
 
 
 
-If we open up the FD.spice file which is the extracted version, we can see lot of additional capacitances extracted by magic, these are parasitics
-Few other parameters in this file are area of drain(ad), perimeter of drain(pd) etc.
+    -  If we open up the FD.spice file which is the extracted version, we can see lot of additional capacitances extracted by magic, these are parasitics. Few other parameters in this file are area of drain(ad), perimeter of drain(pd) etc.
 
-We also see a scale factor being mentined on top.
+   - We also see a scale factor being mentined on top.
 
-.option scale indicates a multiplication factor thae needs to be multiplied with all the parameter.
+   - .option scale indicates a multiplication factor thae needs to be multiplied with all the parameter.
 
-We know that the minimum length when we use skywater is L=150nm, 
-and if we mention L=15 the scale factor must be choosen as 10n
+   - We know that the minimum length when we use skywater is L=150nm, and if we mention L=15 the scale factor must be choosen as 10n
 
-A total of 84 parasitic capacitance for VCO
-43 for FD
-47 for PFD
-68 for CP
- can be observed from .spice files.
+   -  A total of 
+         84 parasitic capacitance for VCO
+         
+         43 for FD
+         
+         47 for PFD
+         
+         68 for CP
+ 
+   can be observed from .spice files.
 
       
       
