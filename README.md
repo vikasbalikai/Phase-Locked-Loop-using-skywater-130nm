@@ -71,7 +71,16 @@ power consumption, wide frequency range, good switching speed. Of all the concer
    
    <h1> Introduction to PLL </h1>
 
-![image](https://user-images.githubusercontent.com/91013053/134043621-5add8451-809e-4856-a956-86e46239ecfd.png)
+Frequencies in communication systems = ACCURATE + AGILE
+
+- QUARTZ CRYSTALS are Accurate but have narrow range.
+- VOLTAGE CONTROLLED OSCILLATORS are Agile but unstable, as any change in the voltage will lead to instability.
+
+Hence, We need a technique to join these two.
+
+So we need to build a system which can mimic the oscillations of the QUARTZ crystal that controls the VCO.
+
+This can be obtained through what we call as FREQUENCY SYNTHESIS or PHASE LOCKED LOOPS
    
 ![image](https://user-images.githubusercontent.com/91013053/134043831-69ff02e6-82c1-4d06-ade0-65e0168918e7.png)
 
