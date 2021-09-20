@@ -92,7 +92,5 @@ to see that the smallest of the small phase differences must also be detected an
    
    Figure below describes a TRI-STATE PFD with linear range of 2π
    
-   ![image](https://user-images.githubusercontent.com/91013053/134044096-f6ebddc8-55bd-4302-91c2-d97ee788bed0.png)
-
    ![image](https://user-images.githubusercontent.com/91013053/134044030-84b12b99-51a3-4970-b0ae-b9e17c753584.png)
 
