@@ -178,9 +178,11 @@ to see that the smallest of the small phase differences must also be detected an
 - Fosc = Fref then, No need of Divider
 
               
-              <h2> The Circuits used in this design</h2>            
+              <h2> The Circuits used in this design</h2>      
+      
+      ![all circuits](https://user-images.githubusercontent.com/91013053/134068284-a43b9a25-f7e8-4dd7-8a26-989119335756.png)
+
               
-  ![Tri-state-PFD-finite-state-machine](https://user-images.githubusercontent.com/91013053/134068163-dc3a7a1a-ae5e-415b-8442-757ab6d2be36.png)
 
               
               
