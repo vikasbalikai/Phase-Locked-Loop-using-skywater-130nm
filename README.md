@@ -25,7 +25,7 @@ which has paved the way for such advancements. Scaling capability, reduced area,
          
          - [Introduction to VCO and Frequency Divider](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#introduction-to-vco-and-frequency-divider)
          
-      5. [Tool setup and design flow](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#
+      5. [Tool setup and design flow](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#tool-setup-and-design-flow)
          
       6. [Introduction to PDK, specifications and pre-layout circuits](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#
          
