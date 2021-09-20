@@ -9,9 +9,9 @@ CONTENTS
    
    - [Phase-Locked Loop(PLL) design on Open-Source Google-Skywater 130nm Workshop](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#phase-locked-looppll-design-on-open-source-google-skywater-130nm-workshop)
    
-    All About VSD Workshop on PLL 
     
-    Conceptual Framework [Go to Conceptual Framework heading section](#conceptual-framework)
+    
+   - [Conceptual Framework] [Go to Conceptual Framework heading section](#conceptual-framework)
     
     PLL Classification
     
