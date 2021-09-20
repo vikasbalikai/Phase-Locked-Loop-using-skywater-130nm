@@ -320,10 +320,13 @@ sudo apt-get install ngspice
    plot v(6) v(Clk)+2
 
 here <h4 align=justyfy>
--for v2, each terms represent voltage1, voltage2, delay, rise time, fall time, pulse width, period respectively.
--.control tells the simulator to perform transient analysis with a sampling rate of 0.1ns for a time 0.2us.
--The plot v(6) v(Clk)+2 tells it what signals to plot.
--The control block ends with the .endc and the spice file ends with .end.
+   For v2, each terms represent voltage1, voltage2, delay, rise time, fall time, pulse width, period respectively.
+
+   .control tells the simulator to perform transient analysis with a sampling rate of 0.1ns for a time 0.2us.
+   
+   The plot v(6) v(Clk)+2 tells it what signals to plot.
+   
+   The control block ends with the .endc and the spice file ends with .end.
    </h4>
    <h1> Tapeout </h1>
 <h4 align="justify">
