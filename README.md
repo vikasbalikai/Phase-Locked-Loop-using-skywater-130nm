@@ -177,16 +177,7 @@ to see that the smallest of the small phase differences must also be detected an
 
 - Fosc = Fref then, No need of Divider
 
-              
-    The Circuits used in this design      
-      
-     
-      
-      ![all circuits](https://user-images.githubusercontent.com/91013053/134068284-a43b9a25-f7e8-4dd7-8a26-989119335756.png)
 
-              
-
-              
               
 <h1> Tool setup and design flow </h1>
   
@@ -220,8 +211,17 @@ sudo apt-get install ngspice
 - sudo make install This step installs magic on the device
       </h4>
       
+      <h2>
+   The Circuits used in this design      
+      </h2>
+     
+      
+      ![all circuits](https://user-images.githubusercontent.com/91013053/134068284-a43b9a25-f7e8-4dd7-8a26-989119335756.png)    
+      
+      
    <h1> PDK, Design specifications and pre-layout Simulation. </h1>
 
+      
   
 1. PDK is provided by the fabrication centres because thats where the transistors get fabricated.
 2. The characteristics of those transistors in the technology node of interest are available to us through the scripts.
