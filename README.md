@@ -1128,8 +1128,9 @@ v1 VDD GND 1.8
    <h1> Tapeout </h1>
 <h4 align="justify">
    
-         ![e fabless](https://user-images.githubusercontent.com/91013053/134065732-633ff8fb-7b43-465b-884b-711a6819e955.png)
+   ![efab](https://user-images.githubusercontent.com/91013053/134066048-b48f14a1-72fe-4c5d-aea4-2c699ac63cd8.png)
 
+   
    
    Tapeout means to send our final design to the Fab, after preparing it.
 
