@@ -37,6 +37,8 @@
 
    10. [Pre Layout Output of PLL](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#pre-layout-output-of-pll)
 
+   11. [Layout design](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#layout-design)
+
  <h1> What is Phase Locked Loop </h1>
 <h4 align="justify">Today‟s era of the Integrated circuit (IC) has really changed the way how we see the outer world. The journey of Integrated Circuit (IC) technology is about to reach its zenith soon. IC technology has become an integrated part of today‟s life. These developments are mainly because of the rapid advancements in digital technology
 which has paved the way for such advancements. Scaling capability, reduced area, and minimum power consumption are the key attributes of Metal oxide semiconductor (MOS) technology, but what does has made the CMOS technology a consistent performer in the technology marathon is its agility to different processes, easy re-design, and effortlessness behavior even in the sub-threshold region. Since many analog blocks are inevitably being used in several mixed-mode IC designs, the performance metrics of such analog blocks favor a thorough re-design and hence will be a crucial step in the entire fabrication process. To overcome this glitch the complete digitization of the entire process has carved the way for many opportunities in the system on chips (SoCs). The main advantage of digital technology is its versatility in adopting any technological scaling as and when the design process changes. Advantages like better reusability with the minimized area, power, and better integration are the results of a digital intensive approach as quoted by Homayoun and Razavi in 2013. (http://www.seas.ucla.edu/brweb/papers/Journals/HRTCASMar13.pdf). One of the foremost blocks that has seen a tremendous rise in its usage in the recent past is a phase-locked loop (PLL) system in communication systems. The most widely used component in almost all communication system blocks for frequency synthesis and data recovery is PLL. Cell phones, Laptops, Televisions, communication devices are a few examples that depend on PLLs to perform properly. </h4> 
@@ -530,11 +532,16 @@ v1 1 0 1.8
 <h1> Layout design </h1>
 
    <h4 align=left>
-1.Enter the directory containing the "sky130A.tech" file using the "cd" commands.
-2.Type magic -T sky130A.tech in the terminal window.
-3.Two files will open up - one is magic layout editor and another is console window to check the DRCs.
-4. In the magic window we can draw the layout.
-   (Refer this page for detailed description on usage of Magic tool http://opencircuitdesign.com/magic/tutorials/tut1.html(
+
+      1.Enter the directory containing the "sky130A.tech" file using the "cd" commands.
+
+      2.Type magic -T sky130A.tech in the terminal window.
+
+      3.Two files will open up - one is magic layout editor and another is console window to check the DRCs.
+
+      4. In the magic window we can draw the layout.
+   
+      (Refer this page for detailed description on usage of Magic tool http://opencircuitdesign.com/magic/tutorials/tut1.html(
 
    <h4>
    
