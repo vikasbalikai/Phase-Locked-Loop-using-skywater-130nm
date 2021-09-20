@@ -136,6 +136,10 @@ to see that the smallest of the small phase differences must also be detected an
    
    ![image](https://user-images.githubusercontent.com/91013053/134044030-84b12b99-51a3-4970-b0ae-b9e17c753584.png)
 
+   The state diagram for the same is
+   
+   ![Tri-state-PFD-finite-state-machine](https://user-images.githubusercontent.com/91013053/134068010-e31dd3cb-7aa0-4e0a-bd3e-e296d3de9d86.png)
+
    
    
    <h4> Brief about Charge Pump </h4>
@@ -173,6 +177,13 @@ to see that the smallest of the small phase differences must also be detected an
 
 - Fosc = Fref then, No need of Divider
 
+              
+              <h2> The Circuits used in this design</h2>            
+              
+  ![Tri-state-PFD-finite-state-machine](https://user-images.githubusercontent.com/91013053/134068163-dc3a7a1a-ae5e-415b-8442-757ab6d2be36.png)
+
+              
+              
 <h1> Tool setup and design flow </h1>
   
 Best to build any software tool from its source code, as it will be the latest version.
