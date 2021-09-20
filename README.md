@@ -71,16 +71,17 @@ power consumption, wide frequency range, good switching speed. Of all the concer
    
    <h1> Introduction to PLL </h1>
 
-<h4>
- Frequencies in communication systems = ACCURATE + AGILE
-- QUARTZ CRYSTALS are Accurate but have narrow range.
-- VOLTAGE CONTROLLED OSCILLATORS are Agile but unstable, as any change in the voltage will lead to instability.
-Hence, We need a technique to join these two.
-So we need to build a system which can mimic the oscillations of the QUARTZ crystal that controls the VCO.
-- This can be obtained through what we call as FREQUENCY SYNTHESIS or PHASE LOCKED LOOPS
-- Generating a range of frequencies from a single reference frequency is known ad Frequency Synthesis.
-- More precisely, a PLL synchronizes the output phase and frequency of a controllable oscillator to match the output phase and frequency of a reference oscillator. 
-- The simplest analog PLL consists of four basic functional blocks.
+<h4 align="justify">
+   
+   
+   Frequencies in communication systems = ACCURATE + AGILE
+   1. QUARTZ CRYSTALS are Accurate but have narrow range.
+   2. VOLTAGE CONTROLLED OSCILLATORS are Agile but unstable, as any change in the voltage will lead to instability. Hence, We need a technique to join these two.
+   So we need to build a system which can mimic the oscillations of the QUARTZ crystal that controls the VCO.
+   3. This can be obtained through what we call as FREQUENCY SYNTHESIS or PHASE LOCKED LOOPS
+   4. Generating a range of frequencies from a single reference frequency is known ad Frequency Synthesis.
+   5. More precisely, a PLL synchronizes the output phase and frequency of a controllable oscillator to match the output phase and frequency of a reference oscillator. 
+   6. The simplest analog PLL consists of four basic functional blocks.
 </h4>
 
 ![image](https://user-images.githubusercontent.com/91013053/134043831-69ff02e6-82c1-4d06-ade0-65e0168918e7.png)
