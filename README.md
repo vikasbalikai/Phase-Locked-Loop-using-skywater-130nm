@@ -78,7 +78,5 @@ to see that the smallest of the small phase differences must also be detected an
    Key issues of concern while designing PFD
 
    1. The problem of the dead zone must be addressed while designing any PFD.
-   
    2. Linearity range - the designed PFD must maintain the linear relationship, between input and output.
-   
-    3. The blind zone arising due to any transitions of the input signals must be taken care </h4>
+   3. The blind zone arising due to any transitions of the input signals must be taken care </h4>
