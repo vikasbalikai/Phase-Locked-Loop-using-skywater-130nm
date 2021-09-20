@@ -75,7 +75,16 @@ power consumption, wide frequency range, good switching speed. Of all the concer
    
 ![image](https://user-images.githubusercontent.com/91013053/134043831-69ff02e6-82c1-4d06-ade0-65e0168918e7.png)
 
+These following two concepts usually provide enough information to analyze the loop dynamics of the PLL [6]. The two concepts are:
+1. The order of the PLL is the number of poles in the loop
+2. The type of the PLL is the number of integrators in the loop
    
+   VCO has a pole at origin. In addition, the transfer function also indicates that the VCO acts as an integrator.
+
+   Thus, any VCO based PLL has to be at least 1st order and type 1.
+
+   The additional order and type will increase as the number of Loop Filter poles increases.
+
    # Phase Frequency Detector
  <h4 align="justify"> 
 Whenever any signal leads or lags the other signal, the difference of lead and lag information also known as error signal becomes very important. The very job of
