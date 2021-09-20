@@ -95,9 +95,11 @@ to see that the smallest of the small phase differences must also be detected an
    ![image](https://user-images.githubusercontent.com/91013053/134044030-84b12b99-51a3-4970-b0ae-b9e17c753584.png)
 
    #Brief about Charge Pump
-   
-    Analog PLL is also called as Charge pump PLL. 
-      ![image](https://user-images.githubusercontent.com/91013053/134044734-afbc3e68-62d6-45d5-9e49-e3dba25f3519.png)
+   The role of a CP in PLL is to convert the difference in phase or frequency which is measured digitally into an analog signal that can be used to control the VCO. It can be done by using current steering circuits.
+    
+   Analog PLL is also called as Charge pump PLL. 
+    
+   ![image](https://user-images.githubusercontent.com/91013053/134044734-afbc3e68-62d6-45d5-9e49-e3dba25f3519.png)
 
-      ![image](https://user-images.githubusercontent.com/91013053/134044755-437af1fd-b195-4481-b8c6-de30238d65f2.png)
+   ![image](https://user-images.githubusercontent.com/91013053/134044755-437af1fd-b195-4481-b8c6-de30238d65f2.png)
 
