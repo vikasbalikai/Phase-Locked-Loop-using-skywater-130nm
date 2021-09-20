@@ -12,9 +12,10 @@ CONTENTS
    ii. [Conceptual Framework](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#conceptual-framework)
    
    iii. [PLL Classification](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#pll-classification)
+   
    iv. [Frequency synthesis: the journey so far](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#frequency-synthesis:-the-journey-so-far)
     
-   -  #Day 1 – PLL Theory and Lab setup
+   -  # *Day 1 – PLL Theory and Lab setup*
     
     1. Introduction to PLL
     2. Introduction to Phase Frequency Detector
