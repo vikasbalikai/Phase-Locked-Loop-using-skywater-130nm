@@ -7,13 +7,16 @@ which has paved the way for such advancements. Scaling capability, reduced area,
 
 # CONTENTS 
     
-    <h1> All About VSD Workshop on PLL </h1>
-
-<h2 align="left"> Day 1 – PLL Theory and Lab setup <h2>
+    All About VSD Workshop on PLL 
     
     Conceptual Framework [Go to Conceptual Framework heading section](#conceptual-framework)
+    
     PLL Classification
+    
     Frequency synthesis: the journey so far
+    
+    Day 1 – PLL Theory and Lab setup
+    
     1. Introduction to PLL
     2. Introduction to Phase Frequency Detector
     3. Introduction to Charge Pump
