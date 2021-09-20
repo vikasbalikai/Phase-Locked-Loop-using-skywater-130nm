@@ -202,3 +202,18 @@ sudo apt-get install ngspice
     - In this phase all the circuits are developed in such a way that most of the disadvantages are already overcome.            
               
               
+
+                      
+                      
+                      
+  <h1> References </h1>
+1. [https://github.com/lakshmi-sathi/avsdpll_1v8](https://github.com/lakshmi-sathi/avsdpll_1v8)
+2. [https://drive.google.com/file/d/18BG4zzpRrcHP0UoBcNLA3sWFDVdNlUtp/view](https://drive.google.com/file/d/18BG4zzpRrcHP0UoBcNLA3sWFDVdNlUtp/view)
+3. [https://github.com/google/skywater-pdk-libs-sky130_fd_pr.git](https://github.com/google/skywater-pdk-libs-sky130_fd_pr.git)
+4. [https://github.com/efabless/caravel-lite/blob/cda6c3ca1158b495f002bf90860941c3a9af1784/gds/user_analog_project_wrapper_empty.gds.gz](https://github.com/efabless/caravel-lite/blob/cda6c3ca1158b495f002bf90860941c3a9af1784/gds/user_analog_project_wrapper_empty.gds.gz)
+5. [https://www.vsdiat.com/](https://www.vsdiat.com/)
+6. [https://www.vlsisystemdesign.com/](https://www.vlsisystemdesign.com/)
+7. [https://github.com/kunalg123/vsdflow](https://github.com/kunalg123/vsdflow)
+8. [https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+9. [http://opencircuitdesign.com/magic/download.html](http://opencircuitdesign.com/magic/download.html)
+10. [http://opencircuitdesign.com/magic/](http://opencircuitdesign.com/magic/)
