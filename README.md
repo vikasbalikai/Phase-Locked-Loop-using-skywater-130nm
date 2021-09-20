@@ -3,7 +3,7 @@
 
 <h1> CONTENTS </h1>
    
-   i. [What is Phase-Locked Loop(PLL)](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#what-is-phase-locked-loop)
+   i. [What is Phase Locked Loop (PLL)](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#what-is-phase-locked-loop-(pll))
    
    ii. [Conceptual Framework](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#conceptual-framework)
    
