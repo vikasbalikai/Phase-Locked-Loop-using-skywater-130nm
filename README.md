@@ -527,6 +527,16 @@ v1 1 0 1.8
    ![pre layout full PLL](https://user-images.githubusercontent.com/91013053/134059671-2dff2ddc-4306-4730-9df9-33632b85dc86.jpg)
 
    
+<h1> Layout design </h1>
+
+   <h4 align=left>
+1.Enter the directory containing the "sky130A.tech" file using the "cd" commands.
+2.Type magic -T sky130A.tech in the terminal window.
+3.Two files will open up - one is magic layout editor and another is console window to check the DRCs.
+4. In the magic window we can draw the layout.
+   (Refer this page for detailed description on usage of Magic tool http://opencircuitdesign.com/magic/tutorials/tut1.html(
+
+   <h4>
    
    
    
