@@ -17,8 +17,7 @@ A receiver waits for the incoming wake-up signal and upon detection, the PLL
 should wake up and achieve the process of locking in a minimal time of the active
 time frame duration (Shashidharan et al., 2010). 
   
-The PLL circuit is by virtue a closedloop system.
-Though it has a simple operating principle, the PLL technique received much
+  The PLL circuit is by virtue a closedloop system. Though it has a simple operating principle, the PLL technique received much
 attention since it was first conceived by the French scientist De Bellescise in his
 paper, "La Reception Synchrone", (De Bellescise, 1932). The PLL started as a
 discrete element implementation and transformed into a partially integrated circuit,
