@@ -1091,7 +1091,7 @@ v1 VDD GND 1.8
 .ends fd
 ```
    
-<h1> Post Layout Simulation Results <h1>
+<h1> Post Layout Simulation Results </h1>
    
    <h2> Post Layout Simulation for Frequency Divider </h2>   
    
@@ -1122,8 +1122,9 @@ v1 VDD GND 1.8
    ![post layout](https://user-images.githubusercontent.com/91013053/134064810-a1b08803-bfeb-4bb4-8051-ceacfa41e990.jpg)
 
    
-      <h1> Tapeout theory </h1> 
-<h4>
+<h1> Tapeout theory </h1> 
+
+      <h4>
       Tapeout means to send our final design to the Fab, after preparing it.
 
       Preparing the requires adding the following to the chip:
@@ -1140,6 +1141,7 @@ v1 VDD GND 1.8
 
       Caravel: The input-output pads, processor, memory, peripherals and the other most important things that one wants to support his design with are available on the SoC.
    </h4>
+      
       ![e fabless](https://user-images.githubusercontent.com/91013053/134065149-6059b3c2-9982-4b9d-92a3-f6c333011787.png)
 
       
