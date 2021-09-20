@@ -238,7 +238,7 @@ sudo apt-get install ngspice
     - This phase is all about development and the transistor level simulation of the circuits.
     - In this phase all the circuits are developed in such a way that most of the disadvantages are already overcome.            
               
-              ![all circuits](https://user-images.githubusercontent.com/91013053/134069282-fe1dabfd-7dc9-491e-918e-36450fa5d664.png)
+![image](https://user-images.githubusercontent.com/91013053/134069640-16a09b38-2f2b-4412-a744-b1eb7fda8489.png)
         
                       
 <h1> Circuit Design and Simulation </h1>
