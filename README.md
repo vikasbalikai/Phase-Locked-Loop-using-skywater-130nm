@@ -113,18 +113,18 @@ to see that the smallest of the small phase differences must also be detected an
 
    ![image](https://user-images.githubusercontent.com/91013053/134044755-437af1fd-b195-4481-b8c6-de30238d65f2.png)
 
-   <h3> LOOP FILTER: </h3> 
+   <h4> LOOP FILTER:  
    
    The loop filter is usually in the form of a low pass filter 
 - Suppresses the high frequency switching noise.
 - Holds the charges to control VCO
-- However RC network is unstable, hence extra zero is added to stabilise (C2)
+      - However RC network is unstable, hence extra zero is added to stabilise (C2) </h4>
 
    ![image](https://user-images.githubusercontent.com/91013053/134045377-506ab025-9bf9-4180-af6e-11af5014d0f0.png)
 
   <h1> Introduction to VCO and Frequency Divider <h1>
   
-   The most important component in the PLL is the VCO. It generates the output clock frequency according to the voltage provided from the Loop Filter.
+   <h4> The most important component in the PLL is the VCO. It generates the output clock frequency according to the voltage provided from the Loop Filter. <h4>
 
    ![image](https://user-images.githubusercontent.com/91013053/134045581-16aef0d6-0ada-43aa-bc9f-3d1d7bbb57c1.png)
 
@@ -143,14 +143,14 @@ The following tools were used in this program:
 Ngspice: For transistor level simulation
 Magic: For layout design and parasitic extraction
 
-<h3>Installation Procedure for Ngspice <\h3>
+## Installation Procedure for Ngspice 
 
 
 Open the terminal and type
 sudo apt-get install ngspice
 
-<h3> Installation Procedure for Magic: </h3>
-
+## Installation Procedure for Magic: 
+<h4>
 - sudo apt-get update && sudo apt-get upgrade This step is used to update the OS.
               
 - git clone git://opencircuitdesign.com/magic This step clones the Magic Repository
@@ -164,7 +164,8 @@ sudo apt-get install ngspice
 - make This step runs the make command to compile
               
 - sudo make install This step installs magic on the device
-              
+      </h4>
+      
    <h1> PDK, Design specifications and pre-layout Simulation. </h1>
 
   
