@@ -17,21 +17,21 @@ which has paved the way for such advancements. Scaling capability, reduced area,
     
    ## *Day 1 – PLL Theory and Lab setup*
     
-         - [Introduction to PLL](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#introduction-to-pll) 
+      1. [Introduction to PLL](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#introduction-to-pll) 
     
-         - [Introduction to Phase Frequency Detector](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#introduction-to-phase-frequency-detector)
+      2. [Introduction to Phase Frequency Detector](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#introduction-to-phase-frequency-detector)
          
-         - [Introduction to Charge Pump](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#introduction-to-charge-pump)
+      3. [Introduction to Charge Pump](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#introduction-to-charge-pump)
          
-         - [Introduction to VCO and Frequency Divider](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#introduction-to-vco-and-frequency-divider)
+      4. [Introduction to VCO and Frequency Divider](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#introduction-to-vco-and-frequency-divider)
          
       5. [Tool setup and design flow](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#tool-setup-and-design-flow)
          
-      6. [Introduction to PDK, specifications and pre-layout circuits](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#
+      6. [Introduction to PDK, specifications and pre-layout circuits](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#introduction-to-PDK,-specifications-and-pre-layout-circuits)
          
-      7. [Circuit design simulation tool - Ngspice Setup](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#
+      7. [Simulation tool - Ngspice Setup](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#simulation-tool-ngspice-setup)
          
-      8. [Layout design tool - Magic Setup](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#
+      8. [Layout tool - Magic Setup](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#layout-tool-magic-setup)
 
   
   
