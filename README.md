@@ -17,9 +17,9 @@ the drawbacks of analog PLL. The ADPLL itself is also fully integrated with othe
 
   <h1> PLL Classification </h1>
 <h4 align="justify">  The author Roland Best(https://www.amazon.in/Phase-Locked-Loops-Simulation-Applications/dp/0071493751) Classifies PLL into four major categories
-⋅⋅1. Analog PLL (LPLL)
-1. Analog PLL (LPLL)
-2. Classical Digital PLL (DPLL)
-3. All Digital PLL (ADPLL)
-4. Software PLL (SPLL)
+⋅⋅1. Analog PLL (LPLL)  
+1. Analog PLL (LPLL)  
+2. Classical Digital PLL (DPLL)  
+3. All Digital PLL (ADPLL)  
+4. Software PLL (SPLL)  
 The LPSS or analog PLL is one of the oldest types of PLL. The Analog multiplier is typically used as a phase detector. The digital PLL is the digital version of analog-PLL with a digital phase detector. The all-digital PLL is typically different from any other PLLs mentioned so far. The ADPLL is completely digital having either all digital components or all digital (discrete-time) signals. Putting all the components of ADPLL together poses a greater challenge. The VCO is replaced with a DCO. Phase frequency Detectors are used for phase and frequency detection when speed is the key concern for any application. The Time to Digital Converter is sometimes used as an alternative for PFD in some of the architectures. </h4>
