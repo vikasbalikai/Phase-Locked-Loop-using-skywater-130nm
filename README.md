@@ -122,9 +122,10 @@ to see that the smallest of the small phase differences must also be detected an
    
    ![image](https://user-images.githubusercontent.com/91013053/134044030-84b12b99-51a3-4970-b0ae-b9e17c753584.png)
 
-   <h4> Brief about Charge Pump </h4>
    
    ```
+   <h4> Brief about Charge Pump </h4>
+   
    The role of a CP in PLL is to convert the difference in phase or frequency which is measured digitally into an analog signal that can be used to control the VCO. It can be done by using current steering circuits.
     ```
     
@@ -134,10 +135,10 @@ to see that the smallest of the small phase differences must also be detected an
 
    ![image](https://user-images.githubusercontent.com/91013053/134044755-437af1fd-b195-4481-b8c6-de30238d65f2.png)
 
+   ```
    <h4> LOOP FILTER:  
   
-   ```
-   The loop filter is usually in the form of a low pass filter 
+      The loop filter is usually in the form of a low pass filter 
 - Suppresses the high frequency switching noise.
 - Holds the charges to control VCO
       - However RC network is unstable, hence extra zero is added to stabilise (C2) </h4>
