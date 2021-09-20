@@ -579,7 +579,9 @@ Lets say, we want to know the parasitics of FD(Frequency Divider) block, use the
    -  If we mention as 1fF means extarct the paasitice greater than 1fF.  
 
 
-    -  If we open up the FD.spice file which is the extracted version, we can see lot of additional capacitances extracted by magic, these are parasitics. Few other parameters in this file are area of drain(ad), perimeter of drain(pd) etc.
+   -  If we open up the FD.spice file which is the extracted version, we can see lot of additional capacitances extracted by magic, these are parasitics.
+      
+   -  Few other parameters in this file are area of drain(ad), perimeter of drain(pd) etc.
 
    - We also see a scale factor being mentined on top.
 
