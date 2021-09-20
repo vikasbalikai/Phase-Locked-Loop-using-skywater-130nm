@@ -1154,7 +1154,7 @@ v1 VDD GND 1.8
       
       10. This gives us our final IC design in ".gds" format.
 
-      <h2> Below is our final PLL layout</h2>
+      Below is our final PLL layout
       
 ![final PLL](https://user-images.githubusercontent.com/91013053/134066869-ae3f2cda-bc6e-4863-8456-48d9fa018a77.jpg)
 
