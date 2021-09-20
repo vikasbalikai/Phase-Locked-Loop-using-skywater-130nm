@@ -67,8 +67,8 @@ power consumption, wide frequency range, good switching speed. Of all the concer
  
 ![Freq Syn classification](https://user-images.githubusercontent.com/91013053/133984785-d33042a6-5ebb-40ad-8aca-64104e841d8b.png)
    
- # Phase Frequency Detector 
-  
+ # Phase Frequency Detector
+ <h4 align="justify"> 
 Whenever any signal leads or lags the other signal, the difference of lead and lag information also known as error signal becomes very important. The very job of
 PFD is to produce this error signal between lead and lag signal. The following observations can be made w.r.t PFD,
 
@@ -81,4 +81,4 @@ to see that the smallest of the small phase differences must also be detected an
    
    2. Linearity range - the designed PFD must maintain the linear relationship, between input and output.
    
-   3. The blind zone arising due to any transitions of the input signals must be taken care
+    3. The blind zone arising due to any transitions of the input signals must be taken care </h4>
