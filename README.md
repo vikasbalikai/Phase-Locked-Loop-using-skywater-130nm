@@ -110,3 +110,15 @@ to see that the smallest of the small phase differences must also be detected an
 
    ![image](https://user-images.githubusercontent.com/91013053/134045377-506ab025-9bf9-4180-af6e-11af5014d0f0.png)
 
+   # Introduction to VCO and Frequency Divider
+  
+   The most important component in the PLL is the VCO. It generates the output clock frequency according to the voltage provided from the Loop Filter.
+
+   ![image](https://user-images.githubusercontent.com/91013053/134045581-16aef0d6-0ada-43aa-bc9f-3d1d7bbb57c1.png)
+
+- Fosc  > Fref   then, Divide the Fosc &compare it with Fref
+
+- Fosc  < Fref   then, Multiply the Fosc & compare it with Fref
+
+- Fosc = Fref then, No need of Divider
+
