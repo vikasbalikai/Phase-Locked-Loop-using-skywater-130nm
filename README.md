@@ -1128,6 +1128,9 @@ v1 VDD GND 1.8
    <h1> Tapeout </h1>
 <h4 align="justify">
    
+         ![e fabless](https://user-images.githubusercontent.com/91013053/134065732-633ff8fb-7b43-465b-884b-711a6819e955.png)
+
+   
    Tapeout means to send our final design to the Fab, after preparing it.
 
       Preparing the requires adding the following to the chip:
@@ -1177,7 +1180,6 @@ v1 VDD GND 1.8
    14. Considering this scenarion, we place our design at the top-right corner and make the connections to the pins using wire tool and contact layers.
    </h4>   
       
-      ![e fabless](https://user-images.githubusercontent.com/91013053/134065732-633ff8fb-7b43-465b-884b-711a6819e955.png)
 
       
                       
