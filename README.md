@@ -1177,7 +1177,9 @@ v1 VDD GND 1.8
    14. Considering this scenarion, we place our design at the top-right corner and make the connections to the pins using wire tool and contact layers.
    </h4>   
       
-     ![e fabless](https://user-images.githubusercontent.com/91013053/134065149-6059b3c2-9982-4b9d-92a3-f6c333011787.png)                 
+      ![e fabless](https://user-images.githubusercontent.com/91013053/134065732-633ff8fb-7b43-465b-884b-711a6819e955.png)
+
+      
                       
       
   <h1> References </h1>
