@@ -26,9 +26,8 @@
          
    6. [PDK, Design specifications and pre-layout Simulation](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#pdk,-design-specifications-and-pre-layout-simulation)
          
-   7. [Simulation tool - Ngspice Setup](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#simulation-tool-ngspice-setup)
+   7. [Tool Set up](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#tool-setup)
          
-   8. [Layout tool - Magic Setup](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#layout-tool-magic-setup)
 
   ## *Day 2 – PLL Labs with pre and post-layout simulations*
 
