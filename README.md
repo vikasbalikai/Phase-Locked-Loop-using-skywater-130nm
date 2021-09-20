@@ -97,5 +97,7 @@ to see that the smallest of the small phase differences must also be detected an
    #Brief about Charge Pump
    
    <h4> Analog PLL is also called as Charge pump PLL. </h4>
-![image](https://user-images.githubusercontent.com/91013053/134044655-9f6cb13d-58de-4437-b270-85da90d16035.png)
+      ![image](https://user-images.githubusercontent.com/91013053/134044734-afbc3e68-62d6-45d5-9e49-e3dba25f3519.png)
+
+      ![image](https://user-images.githubusercontent.com/91013053/134044755-437af1fd-b195-4481-b8c6-de30238d65f2.png)
 
