@@ -15,7 +15,7 @@ which has paved the way for such advancements. Scaling capability, reduced area,
    
    iv. [Frequency synthesis: the journey so far](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#frequency-synthesis:-the-journey-so-far)
     
-   -  ## *Day 1 – PLL Theory and Lab setup*
+   ## *Day 1 – PLL Theory and Lab setup*
     
          - [Introduction to PLL](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#introduction-to-pll) 
     
