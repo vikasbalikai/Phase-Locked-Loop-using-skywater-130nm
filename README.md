@@ -284,13 +284,48 @@ sudo apt-get install ngspice
    
 ## *Day 2 – PLL Labs with pre and post-layout simulations*
 <h4 align="justify">
-On Day 2, pre-layout simulations & Post-Layout simulations were performed for all the components individually. 
 
-Upon Combining all the files a pre-layout & Post layout simulations were run to cross check the correctness of the PLL
-
-We then created the GDS file for the designed layout aleading to the final tapeout process.  
+   On Day 2, pre-layout simulations & Post-Layout simulations were performed for all the components individually. 
+   Upon Combining all the files a pre-layout & Post layout simulations were run to cross check the correctness of the PLL
+   We then created the GDS file for the designed layout aleading to the final tapeout process.  
    </h4>
- <h1> Tapeout </h1>
+ 
+   <h1>PLL components circuit design</h1>
+   
+   <h2> Frequesncy Divider Block </h2>
+   
+   A circuit description ngspice for the frequency divider circuit was created.
+   A spice file is just a text file with a .spice or .cir extension.
+   To make the file use the following command in the terminal 
+   - touch FreqDiv.cir.
+
+   -  Now open the file using the file browser.
+   -  The first line is always given as a comment and we gave the circuit name as the comment.
+   -  Write the spice code in the file:
+
+
+   Few highlighting part of the code
+
+   v1 1 0 1.8
+
+   v2 Clk 0 PULSE 0 1.8 1n 6p 6p 5ns 10ns 
+
+
+   c1 6 0 10f
+
+   .control
+
+   tran 0.1ns 0.2us
+
+   plot v(6) v(Clk)+2
+
+here <h4 align=justyfy>
+-for v2, each terms represent voltage1, voltage2, delay, rise time, fall time, pulse width, period respectively.
+-.control tells the simulator to perform transient analysis with a sampling rate of 0.1ns for a time 0.2us.
+-The plot v(6) v(Clk)+2 tells it what signals to plot.
+-The control block ends with the .endc and the spice file ends with .end.
+   </h4>
+   <h1> Tapeout </h1>
 <h4 align="justify">
    
    1. Use the downloaded layout file ine analog user project area.
