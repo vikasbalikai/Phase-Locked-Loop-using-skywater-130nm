@@ -90,13 +90,13 @@ to see that the smallest of the small phase differences must also be detected an
    2. Linearity range - the designed PFD must maintain the linear relationship, between input and output.
    3. The blind zone arising due to any transitions of the input signals must be taken care </h4>
    
-   <h4> Figure below describes a TRI-STATE PFD with linear range of 2π <\h4>
+   Figure below describes a TRI-STATE PFD with linear range of 2π 
    
    ![image](https://user-images.githubusercontent.com/91013053/134044030-84b12b99-51a3-4970-b0ae-b9e17c753584.png)
 
    #Brief about Charge Pump
    
-   <h4> Analog PLL is also called as Charge pump PLL. </h4>
+    Analog PLL is also called as Charge pump PLL. 
       ![image](https://user-images.githubusercontent.com/91013053/134044734-afbc3e68-62d6-45d5-9e49-e3dba25f3519.png)
 
       ![image](https://user-images.githubusercontent.com/91013053/134044755-437af1fd-b195-4481-b8c6-de30238d65f2.png)
