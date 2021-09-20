@@ -11,7 +11,7 @@ CONTENTS
    
     
     
-   - [Conceptual Framework] [Go to Conceptual Framework heading section](#conceptual-framework)
+   - [Conceptual Framework] (https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#conceptual-framework)
     
     PLL Classification
     
