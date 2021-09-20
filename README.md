@@ -43,6 +43,13 @@
    
    13. [Post Layout Simulations](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#post-layout-simulations)
  
+   14. [Post Layout Simulation Results](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#post-layout-simulation-results)
+ 
+   15. [Combining the Layouts](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#combining-the-layouts)
+   
+   16. [Tapeout](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#tapeout)
+
+   17. [Conclusion](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#conclusion)
  
  <h1> What is Phase Locked Loop </h1>
 <h4 align="justify">Today‟s era of the Integrated circuit (IC) has really changed the way how we see the outer world. The journey of Integrated Circuit (IC) technology is about to reach its zenith soon. IC technology has become an integrated part of today‟s life. These developments are mainly because of the rapid advancements in digital technology
@@ -1121,7 +1128,35 @@ v1 VDD GND 1.8
    
    ![post layout](https://user-images.githubusercontent.com/91013053/134064810-a1b08803-bfeb-4bb4-8051-ceacfa41e990.jpg)
 
-   
+      
+<h1> Combining the Layouts </h1>
+      
+      
+      1. Use the command magic -T sky130A.tech in the terminal to open magic.
+      
+      2. Go to cells choose place instance. This option allows us to place more than one pre-created circuits in the magic window.
+      
+      3. Press the "I" button and then the "X" button on the keyboard to open the circuit or to make the circuit visible.
+      
+      4. Now open all layouts in the same window.
+      
+      5. Make quick connections using the wire tool. Use space bar to access the wire tool and to exit the wire tool press the space bar three more times.
+
+      6. In the final PLL design:
+
+            -  To select between the charge pump or an external source for the control the VCO we make use of a multiplexer on the right hand side. 
+
+      7. Extract spice netlist and perform the final post layout simulation.
+
+      8. Save that file as a "GDS" file. (The GDS file is the complete layout information that we can send to the fabricatoin centre to fabricate the IC.)
+      
+      9. To write GDS file, go to the file menu and choose the "Write GDS" option.
+      
+      10. This gives us our final IC design in ".gds" format.
+
+      <h2> Below is our final PLL layout</h2>
+      
+![final PLL](https://user-images.githubusercontent.com/91013053/134066869-ae3f2cda-bc6e-4863-8456-48d9fa018a77.jpg)
 
 
       
@@ -1181,8 +1216,9 @@ v1 VDD GND 1.8
    14. Considering this scenarion, we place our design at the top-right corner and make the connections to the pins using wire tool and contact layers.
    </h4>   
       
-
+      <h1> Conclusion </h1>
       
+      <h4> This workshop gave us a detailed information and insight about the complete design aspects in terms of spice code, schematic, and layout for a PLL.</h4>
                       
       
   <h1> References </h1>
