@@ -223,19 +223,19 @@ sudo apt-get install ngspice
 
    5. Then go to the folder skywater-pdk-libs-sky130_fd_pr manually in your machine
 
-   -  enter the folder "cells" 
+      -  enter the folder "cells" 
 
-   -  In that enter "nfet_01v8" folder
+      -  In that enter "nfet_01v8" folder
 
    6. Copy the file "sky130_fd_pr__nfet_01v8__tt.pm3.spice" file.
 
-   -  In the mean time create a new folder called spice_lib folder in the work_dir folder and paste that file in that folder.
+      -  In the mean time create a new folder called spice_lib folder in the work_dir folder and paste that file in that folder.
 
-   -  enter the folder "cells" 
+      -  enter the folder "cells" 
    
-   -  In that enter "pfet_01v8" folder
+      -  In that enter "pfet_01v8" folder
 
-   -  copy the file "sky130_fd_pr__pfet_01v8__tt.pm3.spice" file and paste it in spice Lib folder.
+      -  copy the file "sky130_fd_pr__pfet_01v8__tt.pm3.spice" file and paste it in spice Lib folder.
 
    7. In skywater-pdk-libs-sky130_fd_pr/ folder enter models folder and then in parameters folder
 
@@ -243,15 +243,19 @@ sudo apt-get install ngspice
 
    <h2> Create our own library by the name sky130.lib.</h2>
 
-   -  Steps:
+   Steps:
    -  Be in the terminal cd spice_lib
    -  Use the command nano skulib30.lib
    -  In that include all the 4 files copied in spice_lib folder usig the commands
 
-*comment:skylib.30
-.include invariant.spice 
+   *comment:skylib.30
+   
+.include invariant.spice
+   
 .include lod.spice
+   
 .include sky130_fd_pr__nfet_01v8__tt.pm3.spice
+   
 .include sky130_fd_pr__pfet_01v8__tt.pm3.spice
 
    -  ctrl+s 
