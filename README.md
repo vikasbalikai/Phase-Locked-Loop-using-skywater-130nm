@@ -511,6 +511,19 @@ xm20 10 7 0 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
 v1 1 0 1.8
 .ends fd
  ```
+   <h2> Pre-layout Output of PLL </h2>
+   
+   ![pre layout full PLL](https://user-images.githubusercontent.com/91013053/134059671-2dff2ddc-4306-4730-9df9-33632b85dc86.jpg)
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
    
