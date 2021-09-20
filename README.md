@@ -24,7 +24,7 @@
          
    5. [Tool setup and design flow](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#tool-setup-and-design-flow)
          
-   6. [Introduction to PDK, specifications and pre-layout circuits](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#introduction-to-PDK,-specifications-and-pre-layout-circuits)
+   6. [PDK, Design specifications and pre-layout Simulation](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#pdk,-design-specifications-and-pre-layout-simulation)
          
    7. [Simulation tool - Ngspice Setup](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#simulation-tool-ngspice-setup)
          
@@ -162,5 +162,27 @@ Installation Procedure fol Magic:
 - make This step runs the make command to compile
               
 - sudo make install This step installs magic on the device
+              
+# PDK, Design specifications and pre-layout Simulation
+
+<h4 align="justify">
+- PDK is provided by the fabrication centres because thats where the transistors get fabricated.
+- The characteristics of those transistors in the technology node of interest are available to us through the scripts.
+- Other than transistor characteristics, a lot of information is available to help the design process.
+- The specifications give the operationg condition at which the PLL has to operate.
+- It is based on these specifications, that we will design the circuit.
+- We will use the simplified IP specifications from VSD for our PLL design:
+    - Corner \- TT
+    - Supply \- 1.8V
+    - Room Temperature
+    - VCO mode and PLL mode
+    - Input Fmin = 5MHz and Fmax = 12.5MHz
+    - Multiplier \- 8x
+    - Jitter (RMS) <~ 20ns
+    - Duty Cycle \- 50%
+- The first three specifications together are called as PVT corner or Process\-Voltage\-Temperature corner
+- Pre\-layout:
+    - This phase is all about development and the transistor level simulation of the circuits.
+    - In this phase all the circuits are developed in such a way that most of the disadvantages are already overcome.</h4>            
               
               
