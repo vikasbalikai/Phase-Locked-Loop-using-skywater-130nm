@@ -83,6 +83,7 @@ power consumption, wide frequency range, good switching speed. Of all the concer
    5. More precisely, a PLL synchronizes the output phase and frequency of a controllable oscillator to match the output phase and frequency of a reference oscillator. 
    6. The simplest analog PLL consists of four basic functional blocks.
 </h4>
+
 ![image](https://user-images.githubusercontent.com/91013053/134051674-65564303-ca0a-462b-82be-4827d4515a44.png)
 
    <h4 align="justify"> These following two concepts usually provide enough information to analyze the loop dynamics of the PLL. The two concepts are:
