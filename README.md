@@ -7,9 +7,9 @@ which has paved the way for such advancements. Scaling capability, reduced area,
 
 CONTENTS 
    
-   - [Phase-Locked Loop(PLL) design on Open-Source Google-Skywater 130nm Workshop](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#phase-locked-looppll-design-on-open-source-google-skywater-130nm-workshop)
+   -1. [Phase-Locked Loop(PLL) design on Open-Source Google-Skywater 130nm Workshop](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#phase-locked-looppll-design-on-open-source-google-skywater-130nm-workshop)
    
-   -- [Conceptual Framework](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#conceptual-framework)
+   - [Conceptual Framework](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#conceptual-framework)
    PLL Classification
     
     Frequency synthesis: the journey so far
