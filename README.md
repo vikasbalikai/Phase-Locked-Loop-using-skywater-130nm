@@ -14,7 +14,7 @@ which has paved the way for such advancements. Scaling capability, reduced area,
 <h4 align="justify"> In ADPLL each building blocks are implemented digitally and have a digital interface between them and have the state of the art mechanism to mitigate all
 the drawbacks of analog PLL. The ADPLL itself is also fully integrated with other bigger digital circuits, such as digital signal processing (DSP), on a single die. Most often, there is more than one ADPLL in a single chip. </h4>
 
-  
+ <text align="justify> 
   # PLL Classification 
 [Roland Best](https://www.amazon.in/Phase-Locked-Loops-Simulation-Applications/dp/0071493751) Classifies PLL into four major categories
 i) Analog PLL (LPLL)
