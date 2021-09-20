@@ -202,8 +202,41 @@ sudo apt-get install ngspice
     - In this phase all the circuits are developed in such a way that most of the disadvantages are already overcome.            
               
               
+ <h1> Tapeout </h1>
+<h4 align="justify">
+   
+   1. Use the downloaded layout file ine analog user project area.
+   
+   2. Create a new directory and extract it there. 
 
-                      
+   3. Open this file with magic with the technology file sky130A.tech
+
+   4. Do the pin connections after placing the design in the user project area. 
+
+   5. Use only those pins that are needed and connect them to the design.
+
+   6. We can see that at the bottom of the user project area there are wishful ports.
+   
+   7. On left of the user project area we have input-output ports, Vdd and Vss.
+
+   8. On the right of the user project area we have few more input-output ports and power ports like Vccd, Vssd, Vcca and Vssa.
+
+   9. On top of the user project We can find the analog input-output pins.
+
+   10. In our design, we have five pins:
+    - Enable pins for CP and VCO.
+    - Reference clock input pin.
+    - Output clock pin.
+    - VCO direct input pin.
+
+   11. The enable pins are connected to the digital input-output pins.
+   
+   12. Reference clock input pin and output clock pin are also digital and so we connect them to the digital input-output pins.
+
+   13. VCO direct input pin is control voltage pin of analog nature. So, we need to connect it to an analog input-output pin.
+
+   14. Considering this scenarion, we place our design at the top-right corner and make the connections to the pins using wire tool and contact layers.
+   </h4>                   
                       
                       
   <h1> References </h1>
