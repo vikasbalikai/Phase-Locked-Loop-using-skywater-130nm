@@ -1,6 +1,5 @@
 <h1> Phase-Locked-Loop-using-skywater-130nm </h1>
 <h4 align="justify"> The basic agenda of this workshop was to design a Phase-Locked Loop using an Open-Source Google-Skywater 130nm node. In this workshop, tools like are Ngspice and Magic are used. Considering a layout and an end product(IC) perspective, the mathematical design aspects are totally avoided here, thus making this workshop a learn-by-doing program. A pre-requisites of Basic Electronics is sufficient.</h4>
-Markup :  # Phase-Locked-Loop-using-skywater-130nm  #
 
 <h1> What is Phase Locked Loop (PLL) </h1>
 <h4 align="justify">Today‟s era of the Integrated circuit (IC) has really changed the way how we see the outer world. The journey of Integrated Circuit (IC) technology is about to reach its zenith soon. IC technology has become an integrated part of today‟s life. These developments are mainly because of the rapid advancements in digital technology
@@ -23,3 +22,14 @@ the drawbacks of analog PLL. The ADPLL itself is also fully integrated with othe
     3. All Digital PLL (ADPLL)  
     4. Software PLL (SPLL)  
 The LPSS or analog PLL is one of the oldest types of PLL. The Analog multiplier is typically used as a phase detector. The digital PLL is the digital version of analog-PLL with a digital phase detector. The all-digital PLL is typically different from any other PLLs mentioned so far. The ADPLL is completely digital having either all digital components or all digital (discrete-time) signals. Putting all the components of ADPLL together poses a greater challenge. The VCO is replaced with a DCO. Phase frequency Detectors are used for phase and frequency detection when speed is the key concern for any application. The Time to Digital Converter is sometimes used as an alternative for PFD in some of the architectures. </h4>
+  
+  <h1> Frequency synthesis: the journey so far </h1>
+<h4 align="justify">The expectation from the RF industry is always been on the higher side especially when it comes to delivering high performing, cost-effective, and low power
+consuming synthesizer designs. With the advent of frequency synthesizers many decades ago, one most challenging question that comes to one‟s mind is, do we have
+ideal synthesizer architecture? Although all synthesizers show critical contrasts because of particular applications, they do have certain common requirements - low
+power consumption, wide frequency range, good switching speed. Of all the concerns, the major worry is the power consumption and spectral purity of the signal. One of the prime factors of the synthesizer that influence by and large system‟s performance is the frequency switching speed. The frequency switching speed and time of the synthesizers have become very vital in the present scenario, as this time cannot be utilized for processing the data. As a result, because of the ongoing rise in the data rates of RF systems, many modern synthesizers are coming up which have good switching speed. Another major criterion with the frequency synthesizers is its cost, as it limits the designer‟s choice in selecting appropriate designs that can be used. The frequency synthesizer‟s characteristics depend a lot on a particular architecture. 
+  Frequency synthesis majorly has three conventional techniques, 
+      First one neing the phaselocked loop synthesis, or indirect synthesis, which is found in almost all sophisticated systems. This is a feedback system.
+      The second kind of technique is called as direct analog (DA) frequency synthesis. This technique does not involve feedback and has the best spectral purity almost close to the carrier. The DA procedure is substantially more complex than PLL to execute and is along these lines more costly.
+      The third one is direct digital synthesis (DDS) or Numerically Controlled Oscillator was invented almost 35 years ago but due to advancements in digital technology, it has become popular in the last decade or so.
+  To give better insight, the synthesizers can be classified as direct and indirect architectures. Figure below gives a broader classification </h4>
