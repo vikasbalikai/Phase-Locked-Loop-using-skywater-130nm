@@ -104,7 +104,7 @@ to see that the smallest of the small phase differences must also be detected an
    
    ![image](https://user-images.githubusercontent.com/91013053/134044030-84b12b99-51a3-4970-b0ae-b9e17c753584.png)
 
-   #Brief about Charge Pump
+   <h4> Brief about Charge Pump </h4>
    The role of a CP in PLL is to convert the difference in phase or frequency which is measured digitally into an analog signal that can be used to control the VCO. It can be done by using current steering circuits.
     
    Analog PLL is also called as Charge pump PLL. 
@@ -113,14 +113,16 @@ to see that the smallest of the small phase differences must also be detected an
 
    ![image](https://user-images.githubusercontent.com/91013053/134044755-437af1fd-b195-4481-b8c6-de30238d65f2.png)
 
-   # LOOP FILTER: The loop filter is usually in the form of a low pass filter 
+   <h3> LOOP FILTER: </h3> 
+   
+   The loop filter is usually in the form of a low pass filter 
 - Suppresses the high frequency switching noise.
 - Holds the charges to control VCO
 - However RC network is unstable, hence extra zero is added to stabilise (C2)
 
    ![image](https://user-images.githubusercontent.com/91013053/134045377-506ab025-9bf9-4180-af6e-11af5014d0f0.png)
 
-   # Introduction to VCO and Frequency Divider
+  <h1> Introduction to VCO and Frequency Divider <h1>
   
    The most important component in the PLL is the VCO. It generates the output clock frequency according to the voltage provided from the Loop Filter.
 
@@ -132,7 +134,7 @@ to see that the smallest of the small phase differences must also be detected an
 
 - Fosc = Fref then, No need of Divider
 
-# Tool setup and design flow
+<h1> Tool setup and design flow </h1>
   
 Best to build any software tool from its source code, as it will be the latest version.
 
@@ -141,13 +143,13 @@ The following tools were used in this program:
 Ngspice: For transistor level simulation
 Magic: For layout design and parasitic extraction
 
-Installation Procedure for Ngspice, 
+<h3>Installation Procedure for Ngspice <\h3>
 
 
 Open the terminal and type
 sudo apt-get install ngspice
 
-Installation Procedure fol Magic:
+<h3> Installation Procedure for Magic: </h3>
 
 - sudo apt-get update && sudo apt-get upgrade This step is used to update the OS.
               
@@ -163,7 +165,7 @@ Installation Procedure fol Magic:
               
 - sudo make install This step installs magic on the device
               
-# PDK, Design specifications and pre-layout Simulation
+   <h1> PDK, Design specifications and pre-layout Simulation. </h1>
 
   
 1. PDK is provided by the fabrication centres because thats where the transistors get fabricated.
