@@ -165,13 +165,13 @@ Installation Procedure fol Magic:
               
 # PDK, Design specifications and pre-layout Simulation
 
-<h4 align="justify">
-- PDK is provided by the fabrication centres because thats where the transistors get fabricated.
-- The characteristics of those transistors in the technology node of interest are available to us through the scripts.
-- Other than transistor characteristics, a lot of information is available to help the design process.
-- The specifications give the operationg condition at which the PLL has to operate.
-- It is based on these specifications, that we will design the circuit.
-- We will use the simplified IP specifications from VSD for our PLL design:
+  
+1. PDK is provided by the fabrication centres because thats where the transistors get fabricated.
+2. The characteristics of those transistors in the technology node of interest are available to us through the scripts.
+3. Other than transistor characteristics, a lot of information is available to help the design process.
+4. The specifications give the operationg condition at which the PLL has to operate.
+5. It is based on these specifications, that we will design the circuit.
+6. We will use the simplified IP specifications from VSD for our PLL design:
     - Corner \- TT
     - Supply \- 1.8V
     - Room Temperature
@@ -180,9 +180,9 @@ Installation Procedure fol Magic:
     - Multiplier \- 8x
     - Jitter (RMS) <~ 20ns
     - Duty Cycle \- 50%
-- The first three specifications together are called as PVT corner or Process\-Voltage\-Temperature corner
-- Pre\-layout:
+7. The first three specifications together are called as PVT corner or Process\-Voltage\-Temperature corner
+8. Pre\-layout:
     - This phase is all about development and the transistor level simulation of the circuits.
-    - In this phase all the circuits are developed in such a way that most of the disadvantages are already overcome.</h4>            
+    - In this phase all the circuits are developed in such a way that most of the disadvantages are already overcome.            
               
               
