@@ -103,3 +103,10 @@ to see that the smallest of the small phase differences must also be detected an
 
    ![image](https://user-images.githubusercontent.com/91013053/134044755-437af1fd-b195-4481-b8c6-de30238d65f2.png)
 
+   # LOOP FILTER: The loop filter is usually in the form of a low pass filter 
+- Suppresses the high frequency switching noise.
+- Holds the charges to control VCO
+- However RC network is unstable, hence extra zero is added to stabilise (C2)
+
+   ![image](https://user-images.githubusercontent.com/91013053/134045377-506ab025-9bf9-4180-af6e-11af5014d0f0.png)
+
