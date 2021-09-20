@@ -69,7 +69,23 @@ power consumption, wide frequency range, good switching speed. Of all the concer
  
 ![Freq Syn classification](https://user-images.githubusercontent.com/91013053/133984785-d33042a6-5ebb-40ad-8aca-64104e841d8b.png)
    
- # Phase Frequency Detector
+# Introduction to PLL
+
+Frequencies in communication systems = ACCURATE + AGILE
+
+QUARTZ CRYSTALS are accurate but have narrow range.
+VOLTAGE CONTROLLED OSCILLATORS are Agile but unstable, as any change in the voltage will lead to instability.
+
+We need a technique to join these two.
+
+So we need to build a system which can mimic the oscillations of the QUARTZ crystal that controls the VCO.
+
+This can be obtained through what we call as FREQUENCY SYNTHESIS or PHASE LOCKED LOOPS
+   
+![image](https://user-images.githubusercontent.com/91013053/134043317-e1ae27b5-1962-4f99-b06d-51c46fd91f6c.png)
+
+   
+   # Phase Frequency Detector
  <h4 align="justify"> 
 Whenever any signal leads or lags the other signal, the difference of lead and lag information also known as error signal becomes very important. The very job of
 PFD is to produce this error signal between lead and lag signal. The following observations can be made w.r.t PFD,
