@@ -24,7 +24,7 @@
          
    5. [Tool setup and design flow](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#tool-setup-and-design-flow)
          
-   6. [PDK, Design specifications and pre-layout Simulation](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#pdk,-design-specifications-and-pre-layout-simulation)
+   6. [PDK, Design specifications and pre layout Simulation](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#pdk,-design-specifications-and-pre-layout-simulation)
          
    7. [Circuit Design and Simulation](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#circuit-design-and-simulation)
 
@@ -32,6 +32,10 @@
    
    8. [PLL components circuit design](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#pll-components-circuit-design)
 
+
+   9. [Combining all the sub blocks to create a PLL](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#combining-all-the-sub-blocks-to-create-a-pll)
+
+   10. [Pre Layout Output of PLL](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#pre-layout-output-of-pll)
 
  <h1> What is Phase Locked Loop </h1>
 <h4 align="justify">Today‟s era of the Integrated circuit (IC) has really changed the way how we see the outer world. The journey of Integrated Circuit (IC) technology is about to reach its zenith soon. IC technology has become an integrated part of today‟s life. These developments are mainly because of the rapid advancements in digital technology
@@ -286,7 +290,7 @@ sudo apt-get install ngspice
    </h4>                     
   
    
-## *Day 2 – PLL Labs with pre and post-layout simulations*
+## *Day 2 – PLL Labs with pre and post layout simulations*
 <h4 align="justify">
 
    On Day 2, pre-layout simulations & Post-Layout simulations were performed for all the components individually. 
@@ -339,7 +343,7 @@ here <h4 align=justyfy>
    
    
    
-   <h1> Combining all the sub-blocks to create a PLL </h1>
+   <h1> Combining all the sub blocks to create a PLL </h1>
    
    - Here we execute the combined spice file to get the result of entire PLL
    ```
@@ -511,7 +515,7 @@ xm20 10 7 0 0 sky130_fd_pr__nfet_01v8 l=150n w=360n
 v1 1 0 1.8
 .ends fd
  ```
-   <h2> Pre-layout Output of PLL </h2>
+   <h2> Pre Layout Output of PLL </h2>
    
    ![pre layout full PLL](https://user-images.githubusercontent.com/91013053/134059671-2dff2ddc-4306-4730-9df9-33632b85dc86.jpg)
 
