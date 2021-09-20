@@ -88,7 +88,12 @@ power consumption, wide frequency range, good switching speed. Of all the concer
  
  ![Freq Syn classification](https://user-images.githubusercontent.com/91013053/134052284-ec1060c3-a718-4348-ad6b-6c29f15c5909.png)
 
-       
+      <h2>
+   The Circuits used in this design      
+      </h2>
+     
+      
+      ![all circuits](https://user-images.githubusercontent.com/91013053/134068284-a43b9a25-f7e8-4dd7-8a26-989119335756.png)       
    
    <h1> Introduction to PLL </h1>
 
@@ -211,12 +216,7 @@ sudo apt-get install ngspice
 - sudo make install This step installs magic on the device
       </h4>
       
-      <h2>
-   The Circuits used in this design      
-      </h2>
-     
-      
-      ![all circuits](https://user-images.githubusercontent.com/91013053/134068284-a43b9a25-f7e8-4dd7-8a26-989119335756.png)    
+    
       
       
    <h1> PDK, Design specifications and pre-layout Simulation. </h1>
