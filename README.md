@@ -67,7 +67,9 @@ power consumption, wide frequency range, good switching speed. Of all the concer
   
   To give better insight, the synthesizers can be classified as direct and indirect architectures. Figure below gives a broader classification </h4>
  
-![Freq Syn classification](https://user-images.githubusercontent.com/91013053/133984785-d33042a6-5ebb-40ad-8aca-64104e841d8b.png)
+ <p align="center">
+  <img width="260" height="766" src=![Freq Syn classification](https://user-images.githubusercontent.com/91013053/133984785-d33042a6-5ebb-40ad-8aca-64104e841d8b.png)
+       </p>
    
    <h1> Introduction to PLL </h1>
 
