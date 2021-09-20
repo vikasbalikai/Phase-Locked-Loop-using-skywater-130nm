@@ -15,16 +15,17 @@ which has paved the way for such advancements. Scaling capability, reduced area,
    
    iv. [Frequency synthesis: the journey so far](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#frequency-synthesis:-the-journey-so-far)
     
-   -  <h3 text=italic> Day 1 – PLL Theory and Lab setup </h3>
+   -  ## *Day 1 – PLL Theory and Lab setup*
     
-    1. Introduction to PLL
-    2. Introduction to Phase Frequency Detector
-    3. Introduction to Charge Pump
-    4. Introduction to VCO and Frequency Divider
-    5. Tool setup and design flow
-    6. Introduction to PDK, specifications and pre-layout circuits
-    7. Circuit design simulation tool - Ngspice Setup
-    8. Layout design tool - Magic Setup
+    1. [Introduction to PLL](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#introduction-to-pll)
+    
+    2. [Introduction to Phase Frequency Detector]
+    3. [Introduction to Charge Pump]
+    4. [Introduction to VCO and Frequency Divider]
+    5. [Tool setup and design flow]
+    6. [Introduction to PDK, specifications and pre-layout circuits]
+    7. [Circuit design simulation tool - Ngspice Setup]
+    8. [Layout design tool - Magic Setup]
 
   
   
