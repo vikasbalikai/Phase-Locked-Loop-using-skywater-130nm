@@ -17,8 +17,8 @@ which has paved the way for such advancements. Scaling capability, reduced area,
     
    ## *Day 1 – PLL Theory and Lab setup*
     
-      1. [Introduction to PLL](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#introduction-to-pll) 
-    
+      1. [Introduction to PLL] (https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#introduction-to-pll)
+                
       2. [Introduction to Phase Frequency Detector](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#introduction-to-phase-frequency-detector)
          
       3. [Introduction to Charge Pump](https://github.com/vikasbalikai/Phase-Locked-Loop-using-skywater-130nm/edit/main/README.md#introduction-to-charge-pump)
