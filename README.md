@@ -600,11 +600,33 @@ Lets say, we want to know the parasitics of FD(Frequency Divider) block, use the
  
    can be observed from .spice files.
 
+<h1> Post Layout Simulations </h1>     
       
-      
+<h4> 
+For post layout simulation
+
+   run the command
    
+   nano PFD_postlay.cir and type the following
+
+ ```  
+.include spice_lib/sky130.lib
+.include PFD.spice
+
+XX1 Ref_clk Up Down clk2 GND VDD PFD
+
+v1 VDD GND 1.8
+v2 Ref_clk 0 PULSE 0 1.8 0n 6p 6p 40ns 80ns
+v3 Clk2 0 PULSE 0 1.8 1n 6p 6p 40ns 80ns
+
+.control
+tran 0.1ns 5us
+plot v(Up) v(Down)+2 v(Ref_clk)+4 v(clk2)+6
+.endc
+.end
+```   
    
-   
+   </h4>
    
    
    
